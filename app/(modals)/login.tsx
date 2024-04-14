@@ -15,19 +15,17 @@ import {
   FontAwesome,
   Ionicons,
   MaterialCommunityIcons,
-  SimpleLineIcons,
 } from "@expo/vector-icons";
 import { router } from "expo-router";
 
 export default function InboxScreen() {
-  
   return (
     <SafeAreaView style={[defaultStyles.container]}>
       <View style={[defaultStyles.header]}>
-        <SimpleLineIcons
-          name="arrow-left"
+        <AntDesign
+          name="arrowleft"
           style={[defaultStyles.btnIcon]}
-          size={18}
+          size={24}
           onPress={() => router.back()}
         />
         <Text style={[defaultStyles.headerText]}>Log in or Sign up</Text>

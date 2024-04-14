@@ -15,7 +15,7 @@ export const defaultStyles = StyleSheet.create({
   },
   headerText: {
     fontFamily: "PoppinsSemiBold",
-    fontSize: 16,
+    fontSize: 18,
   },
   inputField: {
     height: 50,

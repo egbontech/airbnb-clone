@@ -11,17 +11,8 @@ interface Props {
 
 // Bottom sheet that wraps our Listings component
 const ListingsBottomSheet = ({ listings }: Props) => {
-  const snapPoints = useMemo(() => ["22%", "100%"], []);
+  const snapPoints = useMemo(() => ["21%", "100%"], []);
   const bottomSheetRef = useRef<BottomSheet>(null);
-  const [isSheetExpanded, setIsSheetExpanded] = useState(false);
-
-  const toggleBottomSheet = () => {
-    if (isSheetExpanded) {
-      bottomSheetRef.current?.collapse();
-    } else {
-      bottomSheetRef.current?.expand();
-    }
-  };
 
   const onShowMap = () => {
     bottomSheetRef.current?.collapse();

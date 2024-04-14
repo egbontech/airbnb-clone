@@ -1,28 +1,20 @@
-import { StyleSheet, Text, View } from 'react-native';
-import { StatusBar } from 'expo-status-bar';
+import { StyleSheet, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
+import AuthScreen from "@/components/General/AuthScreen";
 
 export default function ProfileScreen() {
   return (
-    <View style={styles.container}>
-      <StatusBar style='dark'/>
-      <Text style={styles.title}>Profile</Text>    
-    </View>
+    <SafeAreaView style={styles.container}>
+      <AuthScreen />
+    </SafeAreaView>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  title: {
-    fontSize: 20,   
-    fontFamily:'PoppinsSemiBold'
-  },
-  separator: {
-    marginVertical: 30,
-    height: 1,
-    width: '80%',
+    alignItems: "center",
+    justifyContent: "center",
+    backgroundColor: "white",
   },
 });

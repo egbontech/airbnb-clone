@@ -87,17 +87,9 @@ function RootLayoutNav() {
       <Stack.Screen
         name="(modals)/booking"
         options={{
-          headerLeft: () => (
-            <TouchableOpacity>
-              <MaterialIcons
-                name="keyboard-arrow-left"
-                size={35}
-                style={{ paddingBottom: 4 }}
-              />
-            </TouchableOpacity>
-          ),
+          headerShown:false,          
           animation: "fade",
-          presentation: "transparentModal",
+          presentation: "modal",          
         }}
       />
     </Stack>

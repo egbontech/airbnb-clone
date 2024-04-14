@@ -65,12 +65,9 @@ export default function Header() {
             </View>
           </TouchableOpacity>
         </Link>
-
-        <Link href={"/(modals)/login"} asChild>
-          <TouchableOpacity style={styles.filterBtn}>
-            <Ionicons name="options-outline" size={24} />
-          </TouchableOpacity>
-        </Link>
+        <TouchableOpacity style={styles.filterBtn}>
+          <Ionicons name="options-outline" size={24} />
+        </TouchableOpacity>
       </View>
       <ScrollView
         horizontal
