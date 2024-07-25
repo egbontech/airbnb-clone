@@ -2,7 +2,16 @@
 
 This project is a clone of the Airbnb user interface, built using React Native and Expo. It showcases the design and layout of the Airbnb app, focusing on the frontend components.
 
+### Features
+- User interface mimicking Airbnb
+- Responsive design
+- Navigation between screens
+- Listing details view
 
+### Technologies Used
+- React Native
+- Expo
+- Expo Router
 
 <div style="display: flex; flex-direction: 'row';">
 <img src="https://github.com/egbontech/airbnb-clone/assets/105052664/e51f1a27-ef79-4594-a099-110aa6e5ac39" width=30%>
